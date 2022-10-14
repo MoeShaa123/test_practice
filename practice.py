@@ -17,7 +17,6 @@ def isTwin(a,b):
 print(isTwin("silent", "listen"))
 
 def isgood(password):
-    password = input()
     if len(password) < 5:
         return "Your password is too short"
     elif len(password) > 20:
@@ -25,4 +24,6 @@ def isgood(password):
     else:
         return "Your password is an acceptable length"
 
-print(isgood(mohamed))
+
+password = input()
+print(isgood(password))
